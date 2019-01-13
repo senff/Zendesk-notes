@@ -1,0 +1,46 @@
+.event:not(.is-public) .comment::before {
+    content: "INTERNAL NOTE:";
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.event:not(.is-public) .comment {
+    background: #ffc;
+    border: solid 1px #dda;
+    margin: 15px 30px;
+    width: 50%;
+    border-radius: 0;
+    min-height: 120px;
+    -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
+    /* Safari+Chrome */
+    -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    /* Opera */
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);    
+    -webkit-transform:rotate(1deg);
+    -o-transform:rotate(1deg);
+    -moz-transform:rotate(1deg);
+}
+
+.comment_input:not(.is-public) textarea.ember-view {
+    background: #ffc !important;
+    border: solid 1px #dda !important;
+    outline: none;
+    margin: 15px 30px 15px 0;
+    width: 50%;
+    height: auto !important;
+    border-radius: 0;
+    min-height: 200px;
+    -moz-box-shadow:5px 5px 7px rgba(33,33,33,1) !important;
+    /* Safari+Chrome */
+    -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7) !important;
+    /* Opera */
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7)  !important;    
+    -webkit-transform:rotate(-1deg);
+    -o-transform:rotate(-1deg);
+    -moz-transform:rotate(-1deg);
+    overflow-y: scroll !important;
+}
+
