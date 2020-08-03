@@ -22,4 +22,4 @@ With Stylus, you can add your own custom CSS code to any site, to modify the loo
 
 
 ## MORE INFORMATION:
-https://heinvestigations.wordpress.com/2018/01/17/happychat-operators-redesign/
+https://heinvestigations.wordpress.com/2019/01/14/happy-suite-of-happiness-hacks/#zendesk-post-it
